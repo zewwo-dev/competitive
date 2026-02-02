@@ -21,7 +21,7 @@
   },
   "workspaceFolder": "/home",
   "workspaceMount": "source=${localWorkspaceFolder},target=/home,type=bind,consistency=cached",
-  "onCreateCommand": "cd /home && chmod +x run.sh && echo \"alias run=\\\"/home/run.sh\\\"\" >> ~/.bashrc",
+  "onCreateCommand": "cd /home && chmod +x run.sh && echo \"alias run=\\\"/home/run.sh\\\"\" >> ~/.zshrc",
   "postCreateCommand": "cd /home && ./run.sh precompile"
   // Features to add to the dev container. More info: https://containers.dev/features.
   // "features": {},
