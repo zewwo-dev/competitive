@@ -12,3 +12,4 @@
 1. Install the [Docker Engine](https://docs.docker.com/engine/install/)
 2. Install the recommended extensions
 3. Open the Command Pallete > Dev Containers: Reopen in Container
+4. Use `run` to run main.cpp
