@@ -1,7 +1,7 @@
 {
   "C_Cpp.autocomplete": "disabled",
   "C_Cpp.intelliSenseEngine": "disabled",
-  "clang-format.executable": "/usr/bin/clang-format-16",
+  "clang-format.executable": "/usr/bin/clang-format-19",
   "clangd.path": "/usr/bin/clangd",
   "code-runner.executorMap": {
     "cpp": "cd $dir && mkdir -p build && g++ -std=c++17 $fileName -o build/$fileNameWithoutExt && build/$fileNameWithoutExt && echo \n"
